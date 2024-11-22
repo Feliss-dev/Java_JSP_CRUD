@@ -1,0 +1,14 @@
+CREATE TABLE MayTinh (
+    MaMayTinh INT PRIMARY KEY AUTO_INCREMENT,
+    TenMayTinh VARCHAR(50),
+    HangSanXuat VARCHAR(50),
+    SoLuong INT,
+    DonGia DECIMAL(10, 2)
+);
+
+INSERT INTO MayTinh (TenMayTinh, HangSanXuat, SoLuong, DonGia) VALUES
+('Laptop A', 'Dell', 50, 15000.00),
+('Laptop B', 'HP', 30, 18000.00),
+('Laptop C', 'Lenovo', 70, 16000.00),
+('Laptop D', 'Apple', 20, 20000.00),
+('Laptop E', 'Asus', 40, 14000.00);
